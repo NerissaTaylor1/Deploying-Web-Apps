@@ -1,0 +1,157 @@
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+nav {
+	background-color: #c9c19f;
+	margin: 5px;
+	max-width: 100%;
+}
+
+main {
+	background-color: #caffb9;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 28px;
+	font-size: 1.8rem;
+	color: #333232;
+}
+
+li {
+	list-style: none;
+	font-size: 1.2rem;
+
+	color: #66a182;
+	margin-top: 10px;
+}
+
+.bottom {
+	display: inline-block;
+	margin-left: 82px;
+}
+h1 {
+	font-size: 3.0rem;
+	color: #66a182;
+	margin: 0 60px;
+}
+h2 {
+	margin-top: 12px;
+	font-size: 2.5rem;
+	color: #333232;
+	text-align: center;
+}
+p {
+	margin-top: 26px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#about,
+p {
+	font-size: 1.4rem;
+	max-width: 100%;
+	margin: 5px;
+	text-align: center;
+}
+
+.skills {
+	font-size: 2.5rem;
+	width: 100%;
+}
+.logo {
+	width: 155px;
+	height: 155px;
+
+	border: 1px solid #999;
+	margin-left: 128px;
+	margin-bottom: 5px;
+}
+
+footer {
+	max-width: 100%;
+	background: #c9c19f;
+	color: #333232;
+}
+
+footer p {
+	text-align: center;
+	font-size: 1.6rem;
+	margin-bottom: 10px;
+}
+
+#contact {
+	margin-right: auto;
+	margin-left: auto;
+}
+#contact a {
+	margin-bottom: 55px;
+	color: #333232;
+}
+#contact p {
+	font-size: 1.4rem;
+}
+/*pic in portfolio*/
+.reactp {
+	max-width: 275px;
+	text-align: center;
+	margin-top: 20px;
+	opacity: 0.9;
+}
+.firstp {
+	max-width: 275px;
+	margin-top: -4px;
+	text-align: center;
+}
+.firstp1 {
+	max-width: 275px;
+	margin-top: 11px;
+	margin-bottom: 42px;
+	text-align: center;
+}
+section {
+	background-color: #c9c19f;
+	text-align: center;
+}
+section button {
+	background-color: #66a182;
+}
+.card {
+	background-color: #66a182;
+	padding: 5px;
+	margin: 5px;
+}
+img {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+button {
+	font-size: 1.8rem;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+	footer {
+		max-width: 500px;
+	}
+	.skills {
+		max-width: 380px;
+	}
+	logo {
+		margin-left: 188px;
+	}
+
+	#about {
+		max-width: 80%;
+		height: 300px;
+		margin: 5px;
+	}
+	img {
+		margin-right: 35px;
+	}
+	.bottom {
+		margin-left: 50px;
+	}
+}
